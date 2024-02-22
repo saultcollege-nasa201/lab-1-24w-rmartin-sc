@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My NASA201 Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <h3>Rodney's Site</h3><h2>Another heading</h2>
+    <header>
+        <header>
+            <img src="https://www.saultcollege.ca/themes/custom/sault/src/000_assets/logos/logo.svg">
+            <h1>My NASA201 Site</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <p>
+            Sault College offers a diverse range of programs aimed at preparing students for successful careers in various fields. Whether you're interested in business, technology, health sciences, or the arts, Sault College provides quality education and practical experience to help you achieve your goals. With state-of-the-art facilities and dedicated faculty members, Sault College is committed to fostering a supportive learning environment where students can thrive academically and personally.
+        </p>
+        <p>
+            At Sault College, students have access to a wide range of resources to support their academic journey. From well-equipped laboratories and libraries to student support services and extracurricular activities, there are plenty of opportunities for students to engage with their studies and connect with their peers. Whether you're seeking academic assistance, career guidance, or simply looking to get involved on campus, Sault College has something for everyone.
+        </p>
+    
+        <figure>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/0aRFflq1uvE"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                <p>iframe is not supported in your browser</p>
+            </iframe>
+            <figcaption>Sault College</figcaption>
+        </figure>
 
-    <p>
-        <a href="contact.html">contact page</a>
-        This is some text that contains 
-        &lt;script&gt;alert('yo');&lt;/script&gt;
-
-
-    </p>
-
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/0aRFflq1uvE"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-        <p>iframe is not supported in your browser</p>
-    </iframe>
-
-    <!--  Does this stay after I restart my codespace? -->
-
-    <form method="POST">
-        <label>First name: <input type="text" name="first_name"></label>
-        <label for="thePassword">Password: </label>
-        <input type="password" name="password" id="thePassword"><br><br>
-
-        <input type="radio" name="best_pet" value="cat" id="cat"><label for="cat">Cat</label><br>
-        <input type="radio" name="best_pet" value="dog" id="dog"><label for="dog">Dog</label><br>
-        <input type="radio" name="best_pet" value="other" id="other"><label for="other">Other</label><br><br>
-
-        <textarea name="message" maxlength="10" placeholder="Enter your message here"></textarea><br><br>   
-
-        <button type="submit">Submit</button>
-    </form>
+        <table>
+            <tr><th>Department</th><th>Dean</th></tr>
+            <tr><td>Aviation</td><td>Greg Farish</td></tr>
+            <tr><td>Business and Information Technology</td><td>Martha Irwin</td></tr>
+            <tr><td>Community Services and Interdisciplinary Studies</td><td>Karen Hudson</td></tr>
+            <tr><td>Continuing Education, E-Learning and Culinary</td><td>Lori Crosson</td></tr>
+            <tr><td>Health</td><td>Bob Chapman</td></tr>
+            <tr><td>Technology and Apprenticeship</td><td>Corey Meunier</td></tr>
+            <tr><td>Indigenous Education, School of Natural Environment, Media and Design and Academic Upgrading</td><td>Carolyn Hepburn</td></tr>
+        </table>
+        
+    </main>
+    
+    <footer>
+        &copy; 2024 Sault College
+    </footer>
 </body>
 </html>
